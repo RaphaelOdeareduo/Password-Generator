@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C1C1C;
+}
+
+.app {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: "Karla", sans-serif;
+
+    padding: 120px;
+    border: none;
+    border-radius: 8px;
+
+    max-width: 600px;
+    margin: 100px auto;
+
+    box-shadow: 0px 0px 8px #10B981;
+}
+
+.app-header {
+    font-weight: 800;
+    font-size: 42px;
+    letter-spacing: -2px;
+    line-height: 0.9;
+    margin-bottom: 10px;
+}
+
+.app-header-span {
+    color: #4ADF86;
+    font: inherit;
+}
+
+.app-description {
+    color: #D5D4D8;
+    font-size: 16px;
+}
+
+.generate-button {
+    font: inherit;
+    background-color: #4ADF86;
+    color: inherit;
+    font-size: 16px;
+    padding: 8px 16px;
+    
+    border: none;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 36px;
+
+    text-shadow: 0px 0px 1px #000;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #2F3E53;
+    /* margin: 16px 0; */
+    margin-bottom: 36px;
+    padding: 0;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.app-password {
+    width: 200px;
+    background-color: #273549;
+    color: #55F991;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
