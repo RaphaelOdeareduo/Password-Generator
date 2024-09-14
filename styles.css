@@ -41,6 +41,7 @@ body {
     font-size: 16px;
 }
 
+
 .generate-button {
     font: inherit;
     background-color: #4ADF86;
@@ -77,6 +78,8 @@ hr {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+
+    margin-bottom: 30px;
 }
 
 .app-password {
@@ -90,4 +93,16 @@ hr {
     border-radius: 4px;
 
     text-align: center;
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+
+.app-password:hover {
+    background-color: #55F991;
+    color: #273549;
+}
+
+.app-password:active {
+    background-color: #10B981;
 }
