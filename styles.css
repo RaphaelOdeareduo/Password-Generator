@@ -68,7 +68,6 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #2F3E53;
-    /* margin: 16px 0; */
     margin-bottom: 36px;
     padding: 0;
 }
@@ -83,9 +82,7 @@ hr {
 }
 
 .app-password {
-    /* width: 200px; */
     width: 50%;
-    height: 32px;
     background-color: #273549;
     color: #55F991;
     padding: 6px 12px;
